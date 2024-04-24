@@ -14,11 +14,6 @@ modded class PlayerBase
 
 	                if (transport)
 	                {
-	                    if (transport.IsInherited(rag_atv_base))
-	                    {
-	                        return true;
-	                    }
-
 	                    CarScript theCar = CarScript.Cast(transport);
 
 	                    int carCrewIndex = theCar.CrewMemberIndex(this);

@@ -18,10 +18,6 @@ modded class ZombieBase
 
                 if (transport)
                 {
-//                    if (transport.IsInherited(rag_atv_base))
-//                    {
-//                        return true;
-//                    }
 
                     int carCrewIndex = transport.CrewMemberIndex(pb);
 
@@ -29,7 +25,6 @@ modded class ZombieBase
 
                     if ( theCar.GetCarDoorsState(theCar.GetDoorInvSlotNameFromSeatPos(carCrewIndex)) != CarDoorState.DOORS_CLOSED )
                     {
-//                        Print("Car door state:"+theCar.GetCarDoorsState(theCar.GetDoorInvSlotNameFromSeatPos(carCrewIndex)));
 
                         if ( m_AttackCooldownTime > 0 )
                         {
