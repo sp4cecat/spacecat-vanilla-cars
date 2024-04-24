@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+    <damage min="0.0" max="0.0" />
+    <type name="OffroadHatchback_Black">
+        <damage min="0.0" max="0.0" />
+        <attachments chance="0.25">
+            <item name="HatchbackWheel"/>
+        </attachments>
+        <attachments chance="0.25">
+            <item name="HatchbackWheel"/>
+        </attachments>
+        <attachments chance="0.25">
+            <item name="HatchbackWheel"/>
+        </attachments>
+        <attachments chance="0.25">
+            <item name="HatchbackWheel"/>
+        </attachments>
+        <attachments chance="1.0">
+            <item name="HatchbackWheel" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="CarRadiator" chance="0.30"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="CarBattery" chance="0.30"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="SparkPlug" chance="0.20"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="0.40"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="0.40"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HatchbackDoors_Driver_Black" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HatchbackDoors_CoDriver_Black" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HatchbackHood_Black" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HatchbackTrunk_Black" />
+        </attachments>
+    </type>
+
+    <type name="Hatchback_02_Nyancar">
+        <damage min="0.0" max="0.0" />
+        <attachments chance="0.45">
+            <item name="Hatchback_02_Wheel" />
+        </attachments>
+        <attachments chance="0.45">
+            <item name="Hatchback_02_Wheel" />
+        </attachments>
+        <attachments chance="0.45">
+            <item name="Hatchback_02_Wheel" />
+        </attachments>
+        <attachments chance="0.45">
+            <item name="Hatchback_02_Wheel" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="CarRadiator" chance="0.30"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="CarBattery" chance="0.30"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="SparkPlug" chance="0.30"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="0.40"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="0.40"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Hatchback_02_Door_1_1_Nyancar" chance="0.30"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Hatchback_02_Door_1_2_Nyancar" chance="0.30"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Hatchback_02_Door_2_1_Nyancar" chance="0.30"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Hatchback_02_Door_2_2_Nyancar" chance="0.30"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Hatchback_02_Hood_Nyancar" chance="0.20"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Hatchback_02_Trunk_Nyancar" chance="0.20"/>
+        </attachments>
+        <attachments preset="VehicleBags" />
+        <attachments preset="VehicleShoulder" />
+    </type>
+</spawnabletypes>
