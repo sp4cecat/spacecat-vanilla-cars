@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class OutlandVanillaCars
+	class SpacecatVanillaCars
 	{
 		units[]={};
 		weapons[]={};
@@ -15,14 +15,14 @@ class CfgPatches
 };
 class CfgMods
 {
-	class OutlandVanillaCars
+	class SpacecatVanillaCars
 	{
-		dir="OutlandVanillaCars";
+		dir="SpacecatVanillaCars";
 		picture="";
 		action="";
 		hideName=0;
 		hidePicture=1;
-		name="OutlandVanillaCars";
+		name="SpacecatVanillaCars";
 		credits="SpaceCat";
 		author="SpaceCat";
 		authorID="0";
@@ -40,7 +40,7 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"OutlandVanillaCars/scripts/4_World"
+					"spacecat-vanilla-cars/scripts/4_World"
 				};
 			};
 		};

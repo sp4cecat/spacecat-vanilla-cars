@@ -141,7 +141,7 @@ class Stage8
 };
 class Stage9
 {
-	texture="OutlandCars\truck\data\truck_01_cab_clean_ca.paa";
+	texture="spacecat-vanilla-cars\truck\data\truck_01_cab_clean_ca.paa";
 	texGen="4";
 };
 class Stage10
