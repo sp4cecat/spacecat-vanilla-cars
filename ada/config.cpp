@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class OutlandCars_Lada
+	class SpacecatVanillaCars_Ada
 	{
 		units[]={};
 		weapons[]={};
@@ -44,33 +44,6 @@ class CfgVehicles
 	class Right;
 	class Rear;
 
-    class HatchbackWheel: CarWheel
-    {
-		displayName="Lada Niva Wheel";
-        friction=0.9; //0.95999998
-        inventorySlot[] +=
-        {
-            "wheel1",
-            "wheel2",
-            "wheel3",
-            "wheel4",
-            "wheel5",
-            "wheel6",
-            "wheel7",
-            "wheel8",
-            "wheel9",
-            "wheel10",
-            "wheel11",
-            "wheel12",
-            "wheel13",
-            "wheel14",
-            "wheel15",
-            "wheel16",
-            "wheel17",
-            "wheel18"
-        };
-    };
-
 	class OffroadHatchback: CarScript
 	{
 		displayName="Lada Niva";
@@ -82,7 +55,7 @@ class CfgVehicles
 		};
 		class GUIInventoryAttachmentsProps
 		{
-			class ZenBagGUI
+			class SpacecatBagGUI
 			{
 				name = "Attachments";
 				description = "Attachments";
@@ -251,16 +224,16 @@ class CfgVehicles
 			"dz\vehicles\wheeled\offroadhatchback\data\offroadhatchback_lights.rvmat",
 			"dz\vehicles\wheeled\offroadhatchback\data\offroadhatchback_lights.rvmat",
 			"dz\vehicles\wheeled\offroadhatchback\data\offroadhatchback_lights.rvmat",
-			"spacecat-vanilla-cars\lada\black\niva_body.rvmat",
-			"spacecat-vanilla-cars\lada\black\niva_body.rvmat",
-			"spacecat-vanilla-cars\lada\black\niva_body.rvmat",
-			"spacecat-vanilla-cars\lada\black\niva_body.rvmat",
-			"spacecat-vanilla-cars\lada\black\niva_body.rvmat",
-			"spacecat-vanilla-cars\lada\black\niva_body.rvmat",
-			"spacecat-vanilla-cars\lada\black\niva_body.rvmat",
-			"spacecat-vanilla-cars\lada\black\niva_body.rvmat",
-			"spacecat-vanilla-cars\lada\black\niva_body.rvmat",
-			"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+			"spacecat-vanilla-cars\ada\black\niva_body.rvmat",
+			"spacecat-vanilla-cars\ada\black\niva_body.rvmat",
+			"spacecat-vanilla-cars\ada\black\niva_body.rvmat",
+			"spacecat-vanilla-cars\ada\black\niva_body.rvmat",
+			"spacecat-vanilla-cars\ada\black\niva_body.rvmat",
+			"spacecat-vanilla-cars\ada\black\niva_body.rvmat",
+			"spacecat-vanilla-cars\ada\black\niva_body.rvmat",
+			"spacecat-vanilla-cars\ada\black\niva_body.rvmat",
+			"spacecat-vanilla-cars\ada\black\niva_body.rvmat",
+			"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 		};
 		class DamageSystem: DamageSystem
 		{
@@ -302,7 +275,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+							"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -311,7 +284,7 @@ class CfgVehicles
 								1,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -319,7 +292,7 @@ class CfgVehicles
 								0.69999999,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -327,7 +300,7 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -335,7 +308,7 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -343,7 +316,7 @@ class CfgVehicles
 								0,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_destruct.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_destruct.rvmat"
 								}
 							}
 						};
@@ -355,7 +328,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+							"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -364,7 +337,7 @@ class CfgVehicles
 								1,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -372,7 +345,7 @@ class CfgVehicles
 								0.69999999,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -380,7 +353,7 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -388,7 +361,7 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -396,7 +369,7 @@ class CfgVehicles
 								0,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_destruct.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_destruct.rvmat"
 								}
 							}
 						};
@@ -408,7 +381,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+							"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -417,7 +390,7 @@ class CfgVehicles
 								1,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -425,7 +398,7 @@ class CfgVehicles
 								0.69999999,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -433,7 +406,7 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -441,7 +414,7 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -449,7 +422,7 @@ class CfgVehicles
 								0,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_destruct.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_destruct.rvmat"
 								}
 							}
 						};
@@ -461,7 +434,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+							"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -470,7 +443,7 @@ class CfgVehicles
 								1,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -478,7 +451,7 @@ class CfgVehicles
 								0.69999999,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -486,7 +459,7 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -494,7 +467,7 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -502,7 +475,7 @@ class CfgVehicles
 								0,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_destruct.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_destruct.rvmat"
 								}
 							}
 						};
@@ -514,7 +487,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+							"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -523,7 +496,7 @@ class CfgVehicles
 								1,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -531,7 +504,7 @@ class CfgVehicles
 								0.69999999,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -539,7 +512,7 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -547,7 +520,7 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -555,7 +528,7 @@ class CfgVehicles
 								0,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_destruct.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_destruct.rvmat"
 								}
 							}
 						};
@@ -567,7 +540,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+							"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -576,7 +549,7 @@ class CfgVehicles
 								1,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -584,7 +557,7 @@ class CfgVehicles
 								0.69999999,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -592,7 +565,7 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -600,7 +573,7 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -608,7 +581,7 @@ class CfgVehicles
 								0,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_destruct.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_destruct.rvmat"
 								}
 							}
 						};
@@ -620,7 +593,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+							"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -629,7 +602,7 @@ class CfgVehicles
 								1,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -637,7 +610,7 @@ class CfgVehicles
 								0.69999999,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -645,7 +618,7 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -653,7 +626,7 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -661,7 +634,7 @@ class CfgVehicles
 								0,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_destruct.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_destruct.rvmat"
 								}
 							}
 						};
@@ -673,7 +646,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+							"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -682,7 +655,7 @@ class CfgVehicles
 								1,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -690,7 +663,7 @@ class CfgVehicles
 								0.69999999,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body.rvmat"
 								}
 							},
 							
@@ -698,7 +671,7 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -706,7 +679,7 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_damage.rvmat"
 								}
 							},
 							
@@ -714,7 +687,7 @@ class CfgVehicles
 								0,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_body_destruct.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_body_destruct.rvmat"
 								}
 							}
 						};
@@ -728,7 +701,7 @@ class CfgVehicles
 	{
 		hiddenSelectionsMaterials[]=
 		{
-			"spacecat-vanilla-cars\lada\black\niva_door.rvmat"
+			"spacecat-vanilla-cars\ada\black\niva_door.rvmat"
 		};
 		class DamageSystem: DamageSystem
 		{
@@ -749,7 +722,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"spacecat-vanilla-cars\lada\black\niva_door.rvmat"
+							"spacecat-vanilla-cars\ada\black\niva_door.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -758,7 +731,7 @@ class CfgVehicles
 								1,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_door.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_door.rvmat"
 								}
 							},
 							
@@ -766,7 +739,7 @@ class CfgVehicles
 								0.69999999,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_door.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_door.rvmat"
 								}
 							},
 							
@@ -774,7 +747,7 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_door_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_door_damage.rvmat"
 								}
 							},
 							
@@ -782,7 +755,7 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_door_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_door_damage.rvmat"
 								}
 							},
 							
@@ -790,7 +763,7 @@ class CfgVehicles
 								0,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_door_destruct.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_door_destruct.rvmat"
 								}
 							}
 						};
@@ -804,7 +777,7 @@ class CfgVehicles
 	{
 		hiddenSelectionsMaterials[]=
 		{
-			"spacecat-vanilla-cars\lada\black\niva_door.rvmat"
+			"spacecat-vanilla-cars\ada\black\niva_door.rvmat"
 		};
 		class DamageSystem: DamageSystem
 		{
@@ -825,7 +798,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"spacecat-vanilla-cars\lada\black\niva_door.rvmat"
+							"spacecat-vanilla-cars\ada\black\niva_door.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -834,7 +807,7 @@ class CfgVehicles
 								1,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_door.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_door.rvmat"
 								}
 							},
 							
@@ -842,7 +815,7 @@ class CfgVehicles
 								0.69999999,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_door.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_door.rvmat"
 								}
 							},
 							
@@ -850,7 +823,7 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_door_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_door_damage.rvmat"
 								}
 							},
 							
@@ -858,7 +831,7 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_door_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_door_damage.rvmat"
 								}
 							},
 							
@@ -866,7 +839,7 @@ class CfgVehicles
 								0,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_door_destruct.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_door_destruct.rvmat"
 								}
 							}
 						};
@@ -880,7 +853,7 @@ class CfgVehicles
 	{
 		hiddenSelectionsMaterials[]=
 		{
-			"spacecat-vanilla-cars\lada\black\niva_hood.rvmat"
+			"spacecat-vanilla-cars\ada\black\niva_hood.rvmat"
 		};
 		class DamageSystem: DamageSystem
 		{
@@ -890,7 +863,7 @@ class CfgVehicles
 				{
 					RefTexsMats[]=
 					{
-						"spacecat-vanilla-cars\lada\black\niva_hood.rvmat"
+						"spacecat-vanilla-cars\ada\black\niva_hood.rvmat"
 					};
 					healthLevels[]=
 					{
@@ -899,7 +872,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"spacecat-vanilla-cars\lada\black\niva_hood.rvmat"
+								"spacecat-vanilla-cars\ada\black\niva_hood.rvmat"
 							}
 						},
 						
@@ -907,7 +880,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"spacecat-vanilla-cars\lada\black\niva_hood.rvmat"
+								"spacecat-vanilla-cars\ada\black\niva_hood.rvmat"
 							}
 						},
 						
@@ -915,7 +888,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"spacecat-vanilla-cars\lada\black\niva_hood_damage.rvmat"
+								"spacecat-vanilla-cars\ada\black\niva_hood_damage.rvmat"
 							}
 						},
 						
@@ -923,7 +896,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"spacecat-vanilla-cars\lada\black\niva_hood_damage.rvmat"
+								"spacecat-vanilla-cars\ada\black\niva_hood_damage.rvmat"
 							}
 						},
 						
@@ -931,7 +904,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"spacecat-vanilla-cars\lada\black\niva_hood_destruct.rvmat"
+								"spacecat-vanilla-cars\ada\black\niva_hood_destruct.rvmat"
 							}
 						}
 					};
@@ -944,7 +917,7 @@ class CfgVehicles
 	{
 		hiddenSelectionsMaterials[]=
 		{
-			"spacecat-vanilla-cars\lada\black\niva_trunk.rvmat"
+			"spacecat-vanilla-cars\ada\black\niva_trunk.rvmat"
 		};
 		class DamageSystem: DamageSystem
 		{
@@ -965,7 +938,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"spacecat-vanilla-cars\lada\black\niva_trunk.rvmat"
+							"spacecat-vanilla-cars\ada\black\niva_trunk.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -974,7 +947,7 @@ class CfgVehicles
 								1,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_trunk.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_trunk.rvmat"
 								}
 							},
 							
@@ -982,7 +955,7 @@ class CfgVehicles
 								0.69999999,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_trunk.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_trunk.rvmat"
 								}
 							},
 							
@@ -990,7 +963,7 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_trunk_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_trunk_damage.rvmat"
 								}
 							},
 							
@@ -998,7 +971,7 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_trunk_damage.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_trunk_damage.rvmat"
 								}
 							},
 							
@@ -1006,7 +979,7 @@ class CfgVehicles
 								0,
 								
 								{
-									"spacecat-vanilla-cars\lada\black\niva_trunk_destruct.rvmat"
+									"spacecat-vanilla-cars\ada\black\niva_trunk_destruct.rvmat"
 								}
 							}
 						};
