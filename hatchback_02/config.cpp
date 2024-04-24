@@ -15,7 +15,33 @@ class CfgPatches
 
 class CfgVehicles
 {
+	class CarScript;
+	class CarWheel;
+	class DamageSystem;
+	class DamageZones;
+	class Chassis;
+	class Reflector_1_1;
+	class Reflector_2_1;
+	class WindowFront;
+	class WindowBack;
+	class Engine;
+	class Roof;
+	class Front;
+	class Back;
+	class Fender_1_1;
+	class Fender_1_2;
+	class Fender_2_1;
+	class Fender_2_2;
+	class FuelTank;
+	class Health;
+	class GlobalHealth;
+	class Window;
+	class Doors;
+	class CarDoor;
+
+	class Hatchback_02;
 	class Hatchback_02_Door_1_1;
+
 	class Hatchback_02_Door_1_1_Nyancar: Hatchback_02_Door_1_1
 	{
 		scope=2;
@@ -23,7 +49,7 @@ class CfgVehicles
 		descriptionShort="Nyan-Cat-themed Golf, driver-side door.";
 		hiddenSelectionsMaterials[]=
 		{
-			"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_frontdoor.rvmat"
+			"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_frontdoor.rvmat"
 		};
 		class DamageSystem: DamageSystem
 		{
@@ -44,7 +70,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_frontdoor.rvmat"
+							"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_frontdoor.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -53,7 +79,7 @@ class CfgVehicles
 								1,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_frontdoor.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_frontdoor.rvmat"
 								}
 							},
 
@@ -61,7 +87,7 @@ class CfgVehicles
 								0.69999999,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_frontdoor.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_frontdoor.rvmat"
 								}
 							},
 
@@ -69,7 +95,7 @@ class CfgVehicles
 								0.5,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_frontdoor_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_frontdoor_damage.rvmat"
 								}
 							},
 
@@ -77,7 +103,7 @@ class CfgVehicles
 								0.30000001,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_frontdoor_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_frontdoor_damage.rvmat"
 								}
 							},
 
@@ -85,7 +111,7 @@ class CfgVehicles
 								0,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_frontdoor_destruct.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_frontdoor_destruct.rvmat"
 								}
 							}
 						};
@@ -121,7 +147,7 @@ class CfgVehicles
 
 		hiddenSelectionsMaterials[]=
 		{
-			"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_backdoor.rvmat"
+			"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_backdoor.rvmat"
 		};
 		class DamageSystem: DamageSystem
 		{
@@ -142,7 +168,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_backdoor.rvmat"
+							"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_backdoor.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -151,7 +177,7 @@ class CfgVehicles
 								1,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_backdoor.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_backdoor.rvmat"
 								}
 							},
 
@@ -159,7 +185,7 @@ class CfgVehicles
 								0.69999999,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_backdoor.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_backdoor.rvmat"
 								}
 							},
 
@@ -167,7 +193,7 @@ class CfgVehicles
 								0.5,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_backdoor_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_backdoor_damage.rvmat"
 								}
 							},
 
@@ -175,7 +201,7 @@ class CfgVehicles
 								0.30000001,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_backdoor_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_backdoor_damage.rvmat"
 								}
 							},
 
@@ -183,7 +209,7 @@ class CfgVehicles
 								0,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_backdoor_destruct.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_backdoor_destruct.rvmat"
 								}
 							}
 						};
@@ -213,7 +239,7 @@ class CfgVehicles
 		descriptionShort="Racing stripe Nyan-cat Hood for a VW Golf";
 		hiddenSelectionsMaterials[]=
 		{
-			"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_hood.rvmat"
+			"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_hood.rvmat"
 		};
 		class DamageSystem
 		{
@@ -229,7 +255,7 @@ class CfgVehicles
 							1,
 
 							{
-								"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_hood.rvmat"
+								"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_hood.rvmat"
 							}
 						},
 
@@ -237,7 +263,7 @@ class CfgVehicles
 							0.69999999,
 
 							{
-								"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_hood.rvmat"
+								"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_hood.rvmat"
 							}
 						},
 
@@ -245,7 +271,7 @@ class CfgVehicles
 							0.5,
 
 							{
-								"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_hood_damage.rvmat"
+								"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_hood_damage.rvmat"
 							}
 						},
 
@@ -253,7 +279,7 @@ class CfgVehicles
 							0.30000001,
 
 							{
-								"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_hood_damage.rvmat"
+								"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_hood_damage.rvmat"
 							}
 						},
 
@@ -261,7 +287,7 @@ class CfgVehicles
 							0,
 
 							{
-								"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_hood_destruct.rvmat"
+								"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_hood_destruct.rvmat"
 							}
 						}
 					};
@@ -278,7 +304,7 @@ class CfgVehicles
 		descriptionShort="Racing stripe Nyan-cat rear hatch for a VW Golf";
 		hiddenSelectionsMaterials[]=
 		{
-			"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_trunk.rvmat"
+			"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_trunk.rvmat"
 		};
 		class DamageSystem
 		{
@@ -289,7 +315,7 @@ class CfgVehicles
 					hitpoints=1500;
 					RefTexsMats[]=
 					{
-						"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_trunk.rvmat"
+						"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_trunk.rvmat"
 					};
 					healthLevels[]=
 					{
@@ -298,7 +324,7 @@ class CfgVehicles
 							1,
 
 							{
-								"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_trunk.rvmat"
+								"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_trunk.rvmat"
 							}
 						},
 
@@ -306,7 +332,7 @@ class CfgVehicles
 							0.69999999,
 
 							{
-								"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_trunk.rvmat"
+								"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_trunk.rvmat"
 							}
 						},
 
@@ -314,7 +340,7 @@ class CfgVehicles
 							0.5,
 
 							{
-								"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_trunk_damage.rvmat"
+								"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_trunk_damage.rvmat"
 							}
 						},
 
@@ -322,7 +348,7 @@ class CfgVehicles
 							0.30000001,
 
 							{
-								"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_trunk_damage.rvmat"
+								"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_trunk_damage.rvmat"
 							}
 						},
 
@@ -330,7 +356,7 @@ class CfgVehicles
 							0,
 
 							{
-								"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_trunk_destruct.rvmat"
+								"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_trunk_destruct.rvmat"
 							}
 						}
 					};
@@ -352,7 +378,7 @@ class CfgVehicles
 			"dz\vehicles\wheeled\offroadhatchback\data\offroadhatchback_lights.rvmat",
 			"dz\vehicles\wheeled\offroadhatchback\data\offroadhatchback_lights.rvmat",
 			"dz\vehicles\wheeled\offroadhatchback\data\offroadhatchback_lights.rvmat",
-			"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+			"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
 		};
 			class DamageZones: DamageZones
 			{
@@ -410,7 +436,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
+							"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -419,7 +445,7 @@ class CfgVehicles
 								1,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
 								}
 							},
 
@@ -427,7 +453,7 @@ class CfgVehicles
 								0.69999999,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
 								}
 							},
 
@@ -435,7 +461,7 @@ class CfgVehicles
 								0.5,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
 								}
 							},
 
@@ -443,7 +469,7 @@ class CfgVehicles
 								0.30000001,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
 								}
 							},
 
@@ -451,7 +477,7 @@ class CfgVehicles
 								0,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_destruct.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_destruct.rvmat"
 								}
 							}
 						};
@@ -463,7 +489,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
+							"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -472,7 +498,7 @@ class CfgVehicles
 								1,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
 								}
 							},
 
@@ -480,7 +506,7 @@ class CfgVehicles
 								0.69999999,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
 								}
 							},
 
@@ -488,7 +514,7 @@ class CfgVehicles
 								0.5,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
 								}
 							},
 
@@ -496,7 +522,7 @@ class CfgVehicles
 								0.30000001,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
 								}
 							},
 
@@ -504,7 +530,7 @@ class CfgVehicles
 								0,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_destruct.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_destruct.rvmat"
 								}
 							}
 						};
@@ -516,7 +542,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
+							"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -525,7 +551,7 @@ class CfgVehicles
 								1,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
 								}
 							},
 
@@ -533,7 +559,7 @@ class CfgVehicles
 								0.69999999,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
 								}
 							},
 
@@ -541,7 +567,7 @@ class CfgVehicles
 								0.5,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
 								}
 							},
 
@@ -549,7 +575,7 @@ class CfgVehicles
 								0.30000001,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
 								}
 							},
 
@@ -557,7 +583,7 @@ class CfgVehicles
 								0,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_destruct.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_destruct.rvmat"
 								}
 							}
 						};
@@ -569,7 +595,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
+							"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -578,7 +604,7 @@ class CfgVehicles
 								1,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
 								}
 							},
 
@@ -586,7 +612,7 @@ class CfgVehicles
 								0.69999999,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
 								}
 							},
 
@@ -594,7 +620,7 @@ class CfgVehicles
 								0.5,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
 								}
 							},
 
@@ -602,7 +628,7 @@ class CfgVehicles
 								0.30000001,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
 								}
 							},
 
@@ -610,7 +636,7 @@ class CfgVehicles
 								0,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_destruct.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_destruct.rvmat"
 								}
 							}
 						};
@@ -622,7 +648,7 @@ class CfgVehicles
 					{
 						RefTexsMats[]=
 						{
-							"outland-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
+							"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 						};
 						healthLevels[]=
 						{
@@ -631,7 +657,7 @@ class CfgVehicles
 								1,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
 								}
 							},
 
@@ -639,7 +665,7 @@ class CfgVehicles
 								0.69999999,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
 								}
 							},
 
@@ -647,7 +673,7 @@ class CfgVehicles
 								0.5,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
 								}
 							},
 
@@ -655,7 +681,7 @@ class CfgVehicles
 								0.30000001,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
 								}
 							},
 
@@ -663,7 +689,7 @@ class CfgVehicles
 								0,
 
 								{
-									"outland-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_destruct.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_destruct.rvmat"
 								}
 							}
 						};
