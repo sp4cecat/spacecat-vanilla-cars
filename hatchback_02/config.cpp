@@ -365,6 +365,7 @@ class CfgVehicles
 		};
 	};
 
+
 	class Hatchback_02_Nyancar: Hatchback_02
 	{
 		hiddenSelectionsMaterials[]=
@@ -378,8 +379,44 @@ class CfgVehicles
 			"dz\vehicles\wheeled\offroadhatchback\data\offroadhatchback_lights.rvmat",
 			"dz\vehicles\wheeled\offroadhatchback\data\offroadhatchback_lights.rvmat",
 			"dz\vehicles\wheeled\offroadhatchback\data\offroadhatchback_lights.rvmat",
-			"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+			"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 		};
+		class DamageSystem: DamageSystem
+		{
+			class GlobalHealth: GlobalHealth
+			{
+				class Health: Health
+				{
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							{}
+						},
+						
+						{
+							0.69999999,
+							{}
+						},
+						
+						{
+							0.5,
+							{}
+						},
+						
+						{
+							0.30000001,
+							{}
+						},
+						
+						{
+							0,
+							{}
+						}
+					};
+				};
+			};
 			class DamageZones: DamageZones
 			{
 				class Chassis: Chassis
@@ -440,44 +477,44 @@ class CfgVehicles
 						};
 						healthLevels[]=
 						{
-
+							
 							{
 								1,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 								}
 							},
-
+							
 							{
 								0.69999999,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 								}
 							},
-
+							
 							{
 								0.5,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body_damage.rvmat"
 								}
 							},
-
+							
 							{
 								0.30000001,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body_damage.rvmat"
 								}
 							},
-
+							
 							{
 								0,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_destruct.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body_destruct.rvmat"
 								}
 							}
 						};
@@ -493,44 +530,44 @@ class CfgVehicles
 						};
 						healthLevels[]=
 						{
-
+							
 							{
 								1,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 								}
 							},
-
+							
 							{
 								0.69999999,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 								}
 							},
-
+							
 							{
 								0.5,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body_damage.rvmat"
 								}
 							},
-
+							
 							{
 								0.30000001,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body_damage.rvmat"
 								}
 							},
-
+							
 							{
 								0,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_destruct.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body_destruct.rvmat"
 								}
 							}
 						};
@@ -546,44 +583,44 @@ class CfgVehicles
 						};
 						healthLevels[]=
 						{
-
+							
 							{
 								1,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 								}
 							},
-
+							
 							{
 								0.69999999,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 								}
 							},
-
+							
 							{
 								0.5,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body_damage.rvmat"
 								}
 							},
-
+							
 							{
 								0.30000001,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body_damage.rvmat"
 								}
 							},
-
+							
 							{
 								0,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_destruct.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body_destruct.rvmat"
 								}
 							}
 						};
@@ -599,44 +636,44 @@ class CfgVehicles
 						};
 						healthLevels[]=
 						{
-
+							
 							{
 								1,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 								}
 							},
-
+							
 							{
 								0.69999999,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 								}
 							},
-
+							
 							{
 								0.5,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body_damage.rvmat"
 								}
 							},
-
+							
 							{
 								0.30000001,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body_damage.rvmat"
 								}
 							},
-
+							
 							{
 								0,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_destruct.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body_destruct.rvmat"
 								}
 							}
 						};
@@ -652,49 +689,50 @@ class CfgVehicles
 						};
 						healthLevels[]=
 						{
-
+							
 							{
 								1,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 								}
 							},
-
+							
 							{
 								0.69999999,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body.rvmat"
 								}
 							},
-
+							
 							{
 								0.5,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body_damage.rvmat"
 								}
 							},
-
+							
 							{
 								0.30000001,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_damage.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body_damage.rvmat"
 								}
 							},
-
+							
 							{
 								0,
-
+								
 								{
-									"spacecat-vanilla-cars\hatchback_02\nyancar\data\Hatchback_02_Body_destruct.rvmat"
+									"spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_body_destruct.rvmat"
 								}
 							}
 						};
 					};
 				};
 			};
+		};
 	};
 };
