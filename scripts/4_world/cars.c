@@ -77,3 +77,27 @@ class Hatchback_02_Nyan extends Hatchback_02
 		GetInventory().CreateInInventory("Hatchback_02_Wheel");
 	}
 };
+
+class OffroadHatchback_Black extends OffroadHatchback
+{
+	override void OnDebugSpawn()
+	{
+		SpawnUniversalParts();
+		SpawnAdditionalItems();
+		FillUpCarFluids();
+
+		GetInventory().CreateInInventory("HatchbackWheel");
+		GetInventory().CreateInInventory("HatchbackWheel");
+		GetInventory().CreateInInventory("HatchbackWheel");
+		GetInventory().CreateInInventory("HatchbackWheel");
+
+		GetInventory().CreateInInventory("HatchbackDoors_Driver_Black");
+		GetInventory().CreateInInventory("HatchbackDoors_CoDriver_Black");
+		GetInventory().CreateInInventory("HatchbackHood_Black");
+		GetInventory().CreateInInventory("HatchbackTrunk_Black");
+
+		//-----IN CAR CARGO
+		GetInventory().CreateInInventory("HatchbackWheel");
+		GetInventory().CreateInInventory("HatchbackWheel");
+	}
+};
