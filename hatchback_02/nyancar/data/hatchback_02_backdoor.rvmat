@@ -140,7 +140,7 @@ class Stage8
 };
 class Stage9
 {
-	texture="spacecat-vanilla-cars\hatchback_02\nyancar\data\hatchback_02_backdoor_mc.paa";
+	texture="spacecat_vanilla_cars\hatchback_02\nyancar\data\hatchback_02_backdoor_mc.paa";
 	texGen="4";
 };
 class Stage10
